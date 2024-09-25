@@ -1,0 +1,123 @@
+body {
+	background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(https://i.imgur.com/BEqSltJ.jpeg) no-repeat fixed;
+	background-size: cover;
+}
+
+.h2-centered {
+	color: aliceblue;
+	text-align: center;
+}
+
+.blue-blurry-shadow {
+	text-shadow: 2px 2px 10px #428ebf;
+}
+
+.blue-blurry-shadow {
+	text-shadow: 0px 2px 3px midnightblue;
+}
+
+.system-ui-font {
+	font-family: system-ui, 'Segoe UI', 'Open Sans', sans-serif;
+}
+
+.vert-flex-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.horz-flex-container {
+	display: flex;
+	flex-direction: row;
+}
+
+/* a centered product image */
+.product-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+}
+
+.ridge-border {
+	border-style: ridge;
+	border-width: 3px;
+	border-radius: 30px;
+}
+
+.ridge-border-squared {
+	border-style: ridge;
+	border-width: 2px;
+	border-radius: 5px;
+}
+
+.product-padding {
+	/* leave space from the top, left and from the next element */
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+.product-border {
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #d5feff;
+}
+
+.product-filters {
+	top: 50px;
+	position: sticky;
+	min-width: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: left;
+
+	/* height 0 means sticky positioning will work */
+	height: 0px;
+}
+
+p {
+	color: aliceblue;
+}
+
+p.small-leftright-padding {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.page-buttons {
+	border-style: none;
+	background-color: aliceblue;
+	border-radius: 50px;
+	padding: 10px;
+	transition-duration: 100ms;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.page-buttons:hover {
+	background-color: rgb(196, 196, 196);
+}
+
+/* the horizontal flex container isn't actually horizontal on mobile */
+@media screen and (max-width: 480px) {
+	.horz-flex-container {
+		flex-direction: column;
+	}
+
+	/* make the image even smaller on mobile */
+	.product-image {
+		width: 150px;
+		height: 150px;
+	}
+}
