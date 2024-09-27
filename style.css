@@ -114,8 +114,13 @@ p.small-leftright-padding {
 	background-color: rgb(196, 196, 196);
 }
 
+/* a class that only appears on mobile screens */
+.mobile-only {
+	display: none;
+}
+
 /* the horizontal flex container isn't actually horizontal on mobile */
-@media screen and (max-width: 480px) {
+@media screen and (max-device-width: 480px) {
 	.horz-flex-container {
 		flex-direction: column;
 	}
@@ -124,5 +129,9 @@ p.small-leftright-padding {
 	.product-image {
 		width: 150px;
 		height: 150px;
+	}
+
+	.mobile-only {
+		display: block;
 	}
 }
