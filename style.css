@@ -178,7 +178,6 @@ p.small-leftright-padding {
 		/* center the nav bar */
 		top: 50%;
 		transform: translate(0, -50%);
-		font-size: xx-large;
 	}
 
 	.product-filters.hidden {
