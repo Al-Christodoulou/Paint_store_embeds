@@ -22,9 +22,15 @@ const renderFilters = () => {
 				<label class="system-ui-font" style="color: white;" for="filter${i}">${category}</label><br>
 			</div>
 		`
+
 		product_filters.innerHTML += buttonsHTML
 		i++
 	});
+	// a close button that only appears on mobile
+	const closeNavBarButton = `
+		<button class="product-filters-togglemenu mobile-only"><i>></i></button>
+	`
+	product_filters.innerHTML += closeNavBarButton
 }
 
 const renderProducts = () => {
@@ -119,5 +125,13 @@ document.querySelectorAll('#product-filters input[type="checkbox"]').forEach(but
 		button.click();
 
 		filterProducts();
+	});
+});
+
+// Add functionality for the mobile open/close navbar button
+document.querySelectorAll('.product-filters-togglemenu').forEach(button => {
+	button.addEventListener('click', () => {
+		product_filters = document.getElementById('product-filters');
+		product_filters.classList.toggle('hidden');
 	});
 });

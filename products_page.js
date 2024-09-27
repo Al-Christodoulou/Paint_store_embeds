@@ -10,8 +10,9 @@ const createProductsPage = (page_title) => {
 	content += createPaginationDiv(false);
 	content += `
 		<div id="products" class="horz-flex-container">
-			<div id="product-filters" class="product-filters"></div>
+			<div id="product-filters" class="product-filters hidden"></div>
 			<div id="product-listing" class="product-listing"></div>
+			<button class="product-filters-togglemenu product-filters-circlebtn mobile-only"><i>«</i></button>
 		</div>
 	`;
 	content += createPaginationDiv(true);

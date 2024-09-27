@@ -80,6 +80,39 @@ body {
 
 	/* height 0 means sticky positioning will work */
 	height: 0px;
+	/* higher z-index than the product-listing */
+	z-index: 10;
+
+	transition: 0.2s;
+}
+
+.product-filters-togglemenu {
+	display: block;
+	margin-left: auto;
+	font-size: xx-large;
+
+	font-weight: bolder;
+}
+
+.product-filters-circlebtn {
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+
+	font-size: 80px;
+	width: 120px;
+	height: 120px;
+
+	z-index: 5;
+	border-radius: 50%;
+	background-color: #428ebf;
+
+	transition: 0.2s;
+}
+
+.product-filters-circlebtn:hover {
+	background-color: #d5feff;
+}
 
 .product-listing {
 	max-width: 1200px;
@@ -123,6 +156,40 @@ p.small-leftright-padding {
 @media screen and (max-device-width: 480px) {
 	.horz-flex-container {
 		flex-direction: column;
+	}
+
+	.product-filters {
+		background: rgb(89 73 50);
+		position: fixed;
+		height: fit-content;
+
+		padding: 20px;
+
+		border-radius: 30px;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+
+		max-width: 350px;
+		right: 0;
+		/* reset the two margins for mobile */
+		margin-right: 0;
+		margin-left: 0;
+
+		/* center the nav bar */
+		top: 50%;
+		transform: translate(0, -50%);
+		font-size: xx-large;
+	}
+
+	.product-filters.hidden {
+		right: -50%;
+	}
+
+	.product-filters-wrapper {
+		position: relative;
+		height: 0;
+		z-index: 10;
+		top: 5px;
 	}
 
 	/* make the image even smaller on mobile */
