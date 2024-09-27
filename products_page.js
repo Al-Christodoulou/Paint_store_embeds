@@ -11,7 +11,7 @@ const createProductsPage = (page_title) => {
 	content += `
 		<div id="products" class="horz-flex-container">
 			<div id="product-filters" class="product-filters"></div>
-			<div id="product-listing" style="max-width: 1200px;"></div>
+			<div id="product-listing" class="product-listing"></div>
 		</div>
 	`;
 	content += createPaginationDiv(true);

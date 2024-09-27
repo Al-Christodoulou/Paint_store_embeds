@@ -80,6 +80,11 @@ body {
 
 	/* height 0 means sticky positioning will work */
 	height: 0px;
+
+.product-listing {
+	max-width: 1200px;
+	position: relative;
+	z-index: 1;
 }
 
 p {
