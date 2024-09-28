@@ -41,7 +41,6 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 200px;
-	height: 200px;
 }
 
 .ridge-border {
@@ -152,6 +151,10 @@ p.small-leftright-padding {
 	display: none;
 }
 
+.pagination.hidden {
+	visibility: hidden;
+}
+
 /* the horizontal flex container isn't actually horizontal on mobile */
 @media screen and (max-device-width: 480px) {
 	.horz-flex-container {
@@ -194,7 +197,6 @@ p.small-leftright-padding {
 	/* make the image even smaller on mobile */
 	.product-image {
 		width: 150px;
-		height: 150px;
 	}
 
 	.mobile-only {

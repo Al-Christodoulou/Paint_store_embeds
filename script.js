@@ -41,6 +41,21 @@ const renderProducts = () => {
 	const productList = document.getElementById('product-listing');
 	productList.innerHTML = '';
 
+	// Don't render the previous/next page buttons and the page number if
+	// we don't have any items that are going to be rendered
+	let paginationDivs = document.getElementsByClassName('pagination');
+	if (visibleProducts.length === 0) {
+		for (let i = 0; i < paginationDivs.length; i++) {
+			paginationDivs[i].classList.add('hidden');
+		}
+		return;
+	}
+	else {
+		for (let i = 0; i < paginationDivs.length; i++) {
+			paginationDivs[i].classList.remove('hidden');
+		}
+	}
+
 	visibleProducts.forEach(product => {
 		// Create the HTML structure using template literals
 		const productsHTML = `
