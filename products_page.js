@@ -16,7 +16,7 @@ const createProductsPage = (page_title) => {
 		</div>
 	`;
 	content += createPaginationDiv(true);
-	content += `<div style="height: 180px;"></div>`;
+	content += `<div style="height: 80px;"></div>`;
 
 	return content;
 }
