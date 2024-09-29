@@ -95,7 +95,8 @@ body {
 
 .product-filters-circlebtn {
 	position: sticky;
-	bottom: calc(10px + env(safe-area-inset-bottom));
+	bottom: 10px;
+	margin-bottom: env(safe-area-inset-bottom);
 
 	font-size: 40px;
 	width: 50px;
