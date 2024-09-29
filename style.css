@@ -94,8 +94,10 @@ body {
 }
 
 .product-filters-circlebtn {
-	position: sticky;
-	bottom: 1%;
+	position: fixed;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
 
 	font-size: 40px;
 	width: 50px;
