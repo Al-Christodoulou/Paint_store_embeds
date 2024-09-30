@@ -62,7 +62,7 @@ const renderProducts = () => {
 		<div class="horz-flex-container ridge-border product-padding" style="position: sticky;">
 			<div class="vert-flex-container">
 				<img class="product-image product-border" src="${product.image}"/>
-				<h2 class="system-ui-font h2-centered blue-blurry-shadow">${product.name}</h2>
+				<h2 class="system-ui-font h2-centered blue-blurry-shadow product-name">${product.name}</h2>
 			</div>
 			<div>
 				<p class="small-leftright-padding system-ui-font blue-blurry-shadow">${product.description}</p>

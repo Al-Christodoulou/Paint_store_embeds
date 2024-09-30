@@ -55,6 +55,10 @@ body {
 	border-radius: 5px;
 }
 
+.product-name {
+	max-width: 200px;
+}
+
 .product-padding {
 	/* leave space from the top, left and from the next element */
 	padding-top: 20px;
