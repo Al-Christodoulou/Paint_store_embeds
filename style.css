@@ -58,7 +58,7 @@ body {
 .product-name {
 	max-width: 200px;
 	/* adjust the margins so the text's in the middle */
-	margin: 0 auto;
+	margin: 15px auto;
 }
 
 .product-padding {
