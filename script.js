@@ -26,11 +26,6 @@ const renderFilters = () => {
 		product_filters.innerHTML += buttonsHTML
 		i++
 	});
-	// a close button that only appears on mobile
-	const closeNavBarButton = `
-		<button class="product-filters-togglemenu mobile-only"><i>></i></button>
-	`
-	product_filters.innerHTML += closeNavBarButton
 }
 
 const renderProducts = () => {
@@ -146,6 +141,7 @@ document.querySelectorAll('#product-filters input[type="checkbox"]').forEach(but
 // Add functionality for the mobile open/close navbar button
 document.querySelectorAll('.product-filters-togglemenu').forEach(button => {
 	button.addEventListener('click', () => {
+		button.classList.toggle('openmenu');
 		product_filters = document.getElementById('product-filters');
 		product_filters.classList.toggle('hidden');
 	});

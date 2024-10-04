@@ -91,15 +91,12 @@ body {
 	transition: 0.2s;
 }
 
-.product-filters-togglemenu {
-	display: block;
-	margin-left: auto;
-	font-size: xx-large;
-
-	font-weight: bolder;
-}
-
 .product-filters-circlebtn {
+	margin-left: auto;
+	font-weight: bolder;
+	left: -20px;
+	bottom: 50%;
+
 	position: fixed;
 	right: 0px;
 	top: 50%;
@@ -114,6 +111,11 @@ body {
 	background-color: #4299bf;
 
 	transition: 0.2s;
+}
+
+.product-filters-circlebtn.openmenu {
+	right: 370px;
+	z-index: 20;
 }
 
 .product-filters-circlebtn:hover {
