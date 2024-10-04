@@ -83,8 +83,8 @@ body {
 	margin-right: 50px;
 	text-align: left;
 
-	/* height 0 means sticky positioning will work */
-	height: 0px;
+	max-height: calc(100vh - 100px);
+	overflow-y: auto;
 	/* higher z-index than the product-listing */
 	z-index: 10;
 
