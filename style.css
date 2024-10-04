@@ -57,6 +57,8 @@ body {
 
 .product-name {
 	max-width: 200px;
+	/* adjust the margins so the text's in the middle */
+	margin: 0 auto;
 }
 
 .product-padding {
@@ -166,6 +168,10 @@ p.small-leftright-padding {
 		flex-direction: column;
 	}
 
+	.product-image {
+		width: 160px;
+	}
+
 	.product-filters {
 		background: rgb(89 73 50);
 		position: fixed;
@@ -189,7 +195,7 @@ p.small-leftright-padding {
 	}
 
 	.product-filters.hidden {
-		right: -80%;
+		right: -100%;
 	}
 
 	.product-filters-wrapper {
