@@ -215,3 +215,15 @@ p.small-leftright-padding {
 		display: block;
 	}
 }
+
+/* very small screens */
+@media screen and (max-width: 330px) {
+	.system-ui-font {
+		font-size: small;
+	}
+
+	.page-buttons {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
