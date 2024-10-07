@@ -114,7 +114,7 @@ body {
 }
 
 .product-filters-circlebtn.openmenu {
-	right: 370px;
+	right: var(--product-filters-width, 50px);
 	z-index: 20;
 }
 
@@ -185,7 +185,7 @@ p.small-leftright-padding {
 		border-top-right-radius: 0px;
 		border-bottom-right-radius: 0px;
 
-		max-width: 350px;
+		max-width: 70vw;
 		right: 0;
 		/* reset the two margins for mobile */
 		margin-right: 0;
@@ -197,7 +197,7 @@ p.small-leftright-padding {
 	}
 
 	.product-filters.hidden {
-		right: -100%;
+		transform: translate(100%, -50%);
 	}
 
 	.product-filters-wrapper {

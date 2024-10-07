@@ -143,6 +143,8 @@ document.querySelectorAll('.product-filters-togglemenu').forEach(button => {
 	button.addEventListener('click', () => {
 		button.classList.toggle('openmenu');
 		product_filters = document.getElementById('product-filters');
+		// Set the css variable
+		document.documentElement.style.setProperty('--product-filters-width', `${product_filters.offsetWidth - 10}px`);
 		product_filters.classList.toggle('hidden');
 	});
 });
