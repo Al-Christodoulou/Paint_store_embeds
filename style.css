@@ -78,9 +78,9 @@ body {
 .product-filters {
 	top: 50px;
 	position: sticky;
-	min-width: 200px;
-	margin-left: 50px;
-	margin-right: 50px;
+	min-width: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
 	text-align: left;
 
 	max-height: calc(100vh - 100px);
@@ -189,6 +189,7 @@ p.small-leftright-padding {
 		border-top-right-radius: 0px;
 		border-bottom-right-radius: 0px;
 
+		min-width: auto;
 		max-width: 70vw;
 		right: 0;
 		/* reset the two margins for mobile */
