@@ -164,6 +164,10 @@ p.small-leftright-padding {
 	visibility: hidden;
 }
 
+.no-click-events {
+	pointer-events: none;
+}
+
 /* mobile screens */
 @media screen and (max-width: 880px) {
 	.horz-flex-container {

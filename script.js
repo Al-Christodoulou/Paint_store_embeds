@@ -18,8 +18,8 @@ const renderFilters = () => {
 
 		const buttonsHTML = `
 			<div class="ridge-border-squared" style="padding: 2px; margin-bottom: 10px;">
-				<input type="checkbox" id="filter${i}" name="filter${i}" value="${category}">
-				<label class="system-ui-font" style="color: white;" for="filter${i}">${category}</label><br>
+				<input class="no-click-events" type="checkbox" id="filter${i}" name="filter${i}" value="${category}">
+				<label class="system-ui-font no-click-events" style="color: white;" for="filter${i}">${category}</label><br>
 			</div>
 		`
 
@@ -124,7 +124,7 @@ renderProducts();
 
 // Add the functionality to the product filters after the initial render
 document.querySelectorAll('#product-filters input[type="checkbox"]').forEach(button => {
-	button.addEventListener('change', () => {
+	button.parentElement.addEventListener('click', () => {
 		const category = button.getAttribute('value');
 
 		if (selectedFilters.includes(category) ?
@@ -132,7 +132,7 @@ document.querySelectorAll('#product-filters input[type="checkbox"]').forEach(but
 			selectedFilters.push(category)
 		);
 		// this only changes the ticked/unticked box
-		button.click();
+		button.checked = !button.checked;
 
 		filterProducts();
 	});
