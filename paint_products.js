@@ -473,7 +473,7 @@ const Products = [
 		description: "Ειδικό χρώμα διακόσμησης και προστασίας σατινέ νερού. Αργοστέγνωτο τελείωμα διαφάνειας.",
 		category: "Διακοσμητικό",
 		amount: "1L",
-		image: "https://i.imgur.com/CGSSN3c.png",
+		image: "https://i.imgur.com/JSpwpoi.png",
 	},
 	{
 		name: "Art Glazing",
@@ -515,7 +515,7 @@ const Products = [
 		description: "Εποξειδικό Λευκό σμάλτο δύο συστατικών, νερού, για την επισμάλτωση-βάψιμο-επισκευή και ανακαίνιση σε μπανιέρες, ντουζιέρες, νιπτήρες, κεραμικά πλακάκια τοίχου, είδη υγιεινής, ηλεκτρικές συσκευές, νεροχύτες κουζίνας, δαπέδων τσιμέντου, κτλ. Όψη γυαλιστερή, ανθεκτικό στη διάβρωση, στα κοινά απορρυπαντικά και τους διαλύτες οικιακής χρήσης.",
 		category: "Σμάλτο",
 		amount: "1L",
-		image: "https://i.imgur.com/KuVsyPx.png",
+		image: "https://i.imgur.com/f6Cmbpe.png",
 	},
 	{
 		name: "Saratoga Recupera E Rinnova (A+B)",
