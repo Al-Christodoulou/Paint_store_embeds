@@ -55,7 +55,7 @@ const renderProducts = () => {
 		// Create the HTML structure using template literals
 		const productsHTML = `
 		<div class="horz-flex-container ridge-border product-padding" style="position: sticky;">
-			<div class="vert-flex-container">
+			<div class="vert-flex-container" style="min-width: 200px;">
 				<img class="product-image product-border" src="${product.image}"/>
 				<h2 class="system-ui-font h2-centered blue-blurry-shadow product-name">${product.name}</h2>
 			</div>

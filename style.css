@@ -40,7 +40,8 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 200px;
+	max-width: 200px;
+	max-height: 450px;
 }
 
 .ridge-border {
@@ -175,7 +176,8 @@ p.small-leftright-padding {
 	}
 
 	.product-image {
-		width: 160px;
+		max-width: 160px;
+		max-height: 250px;
 	}
 
 	.product-filters {
