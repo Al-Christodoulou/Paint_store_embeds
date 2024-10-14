@@ -524,6 +524,20 @@ const Products = [
 		amount: "375ml",
 		image: "https://i.imgur.com/OHkaBf5.png",
 	},
+	{
+		name: "Lumina Ruvido Acqua",
+		description: "Μεταλλικό ανάγλυφο χρώμα νερού Lumina Ruvido.",
+		category: "Ανάγλυφο Χρώμα Μεταλλικού Εφέ",
+		amount: "700gr",
+		image: "https://i.imgur.com/Jy7oirk.png",
+	},
+	{
+		name: "PGP Gold Dust",
+		description: "Χρώμα διακοσμητικού χρυσού.",
+		category: "Διακοσμητικό",
+		amount: "200g",
+		image: "https://i.imgur.com/6SY2feP.png",
+	},
 	/* Swan */
 	{
 		name: "Swan Plus Emulsion",
