@@ -465,7 +465,7 @@ const Products = [
 		description: "",
 		category: "Κόλλα Χρωμάτων",
 		amount: "125g",
-		image: "https://i.imgur.com/FGVl96S.png",
+		image: "https://i.imgur.com/WMrn0GX.png",
 	},
 	{
 		name: "Glutolin L",

@@ -61,7 +61,7 @@ const renderProducts = () => {
 			</div>
 			<div>
 				<p class="small-leftright-padding system-ui-font blue-blurry-shadow">${product.description}</p>
-				<p class="small-leftright-padding system-ui-font blue-blurry-shadow">Ποσότητες: ${product.amount}</p>
+				<p class="small-leftright-padding system-ui-font blue-blurry-shadow">Ποσότητες: ${product.amount > 5 ? 'α' : 'b'}</p>
 			</div>
 		</div>
 		`;
