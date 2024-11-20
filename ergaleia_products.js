@@ -81,6 +81,13 @@ const Products = [
 		amount: "",
 		image: "https://i.imgur.com/QngDOTR.png",
 	},
+	{
+		name: "Benman Τανάλια Μήκους 200mm",
+		description: "Μαλακό σύρμα 220 Ν/mm²: 4,50mm. Συσκευή νυχιών Ø750 Ν/mm²: 4,00mm. Σκληρό σύρμα Ø1800 Ν/mm²: 3,50mm",
+		category: "Τανάλια",
+		amount: "",
+		image: "https://i.imgur.com/w7MN5Mh.png",
+	},
 	/*===========
 	   FF Group
 	=============*/
@@ -104,6 +111,20 @@ const Products = [
 		category: "Πένσα",
 		amount: "",
 		image: "https://i.imgur.com/hZjxuQK.png",
+	},
+	{
+		name: "FF Group Πλαγιοκόφτης Ηλεκτρολόγου 160mm",
+		description: "Πλαγιοκόφτης με εργονομική λαβή για άνετη χρήση και νικελομένη κεφαλή για αντοχή στη διάβρωση. Από υψηλής ποιότητας χρωμοβανάδιο, σφυρήλατο, ολικά σκληρυμένο με θερμική επεξεργασία.",
+		category: "Πλαγιοκόφτης",
+		amount: "",
+		image: "https://i.imgur.com/zbguLDy.png",
+	},
+	{
+		name: "FF Group Γαλλικό Κλειδί",
+		description: "Το γαλλικό κλειδί της εταιρείας F.F. Group διαθέτει μήκος 300mm και είναι κατάλληλο για χρήση σε μηχανουργικές, υδραυλικές εργασίες και άλλα μαστορέματα. Διαθέτει ανθεκτικό σχεδιασμό και εργονομική λαβή για σύσφιξη ή χαλάρωση βιδών και παξιμαδιών έως 37mm.",
+		category: "Γαλλικό Κλειδί",
+		amount: "",
+		image: "https://i.imgur.com/HPbx8Dg.png",
 	},
 	/*========
 	   Other
