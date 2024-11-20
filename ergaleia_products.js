@@ -88,6 +88,20 @@ const Products = [
 		amount: "",
 		image: "https://i.imgur.com/w7MN5Mh.png",
 	},
+	{
+		name: "Benman Ποτηροπρίονο",
+		description: "Ποτηροπρίονο της εταιρείας Benman για την ευκολότερη δημιουργία στρογγυλών οπών σε επιφάνειες εργασίας. Είναι κατάλληλο για διάτρηση σε ξύλο και μέταλλο. Από 33 έως 108mm.",
+		category: "Ποτηροπρίονο",
+		amount: "",
+		image: "https://i.imgur.com/yArLwyS.png",
+	},
+	{
+		name: "Μετροταινία BENMAN 71018",
+		description: "",
+		category: "Μέτρο",
+		amount: "",
+		image: "https://i.imgur.com/eHsWb6t.png",
+	},
 	/*===========
 	   FF Group
 	=============*/
@@ -125,6 +139,13 @@ const Products = [
 		category: "Γαλλικό Κλειδί",
 		amount: "",
 		image: "https://i.imgur.com/HPbx8Dg.png",
+	},
+	{
+		name: "Ανταλλακτικές Λάμες FF GROUP",
+		description: "Περιλαμβάνει 10 λάμες εξαιρετικά κοφτερές SK5 Blades. Κόβει με ευκολία μοκέτες, χαρτοκιβώτια, πλαστικά κ.α. Πολύ κοφτερές λεπίδες για μεγάλη διάρκεια χρήσης",
+		category: "Λάμες Φαλτσέτας",
+		amount: "",
+		image: "https://i.imgur.com/YWj1L8c.png",
 	},
 	/*========
 	   Other
@@ -219,5 +240,40 @@ const Products = [
 		category: "Λάμες Φαλτσέτας",
 		amount: "",
 		image: "https://i.imgur.com/fapuSQQ.png",
+	},
+	{
+		name: "Finder Σετ 9 Κλειδιά Torx",
+		description: "Σετ κλειδιά τύπου Torx - Standard 9τμχ.",
+		category: "Κλειδιά",
+		amount: "",
+		image: "https://i.imgur.com/y5sQuHo.png",
+	},
+	{
+		name: "Ρυθμιζόμενο Κλειδί Wokin 12\"",
+		description: "Μαύρο φινίρισμα. Μέγιστο άνοιγμα 36mm 1,42\"",
+		category: "Κλειδιά",
+		amount: "",
+		image: "https://i.imgur.com/XnC5GnA.png",
+	},
+	{
+		name: "Maco Ποτηροτρύπανo HSS",
+		description: "Της εταιρείας Maco για την ευκολότερη δημιουργία στρογγυλών οπών σε επιφάνειες εργασίας. Είναι από υλικό ενισχυμένου χάλυβα που εξασφαλίζει αντοχή και το καθιστά ανθεκτικό στις υψηλές θερμοκρασίες. Είναι κατάλληλο για διάτρηση σε ξύλο, μέταλλο και πλαστικό.",
+		category: "Ποτηροπρίονο",
+		amount: "",
+		image: "https://i.imgur.com/l7bT1QC.png",
+	},
+	{
+		name: "Τρυπάνι CYL-3",
+		description: "Για περιστροφικά δράπανα/δραπανοκατσάβιδα, για κρουστικά δράπανα/δραπανοκατσάβιδα. Υψηλή αντοχή στη φθορά χάρη στο ανθεκτικό μείγμα καρβιδίου, σχεδιασμένο και κατασκευασμένο από τη Bosch. Αποτελεσματική διπλή ελίκωση σε σχήμα U, για καλή απομάκρυνση της σκόνης, μείωση τριβής και μεγάλη διάρκεια ζωής.",
+		category: "Ποτηροπρίονο",
+		amount: "",
+		image: "https://i.imgur.com/U6eAV38.png",
+	},
+	{
+		name: "Μέτρο Ρολό Giant Megalock KDS",
+		description: "Παραδοσιακό μοντέλο βαρέως τύπου για επαγγελματίες. Το κουμπί on-off, διακόπτης κλειδώματος κλειδώνει την ταινία σε οποιαδήποτε θέση και σε οποιοδήποτε σημείο. Ακρυλική επίστρωση. Ταινία μονής όψης. Άγκιστρο άκρου με 2 πριτσίνια.",
+		category: "Μέτρο",
+		amount: "",
+		image: "https://i.imgur.com/OpELcJd.png",
 	},
 ]
