@@ -102,6 +102,27 @@ const Products = [
 		amount: "",
 		image: "https://i.imgur.com/eHsWb6t.png",
 	},
+	{
+		name: "Benman Μυστρί",
+		description: "Μυστρί σοβατζήδων λοξό με ξύλινη λαβή και μεταλλική λάμα.",
+		category: "Μυστρί",
+		amount: "",
+		image: "https://i.imgur.com/mlKaXWj.png",
+	},
+	{
+		name: "Benman Ξύστρα Πολλαπλών Χρήσεων 63mm",
+		description: "",
+		category: "Ξύστρα",
+		amount: "",
+		image: "https://i.imgur.com/hbivYQa.png",
+	},
+	{
+		name: "Benman Σπάτουλα με Inox Λάμα 140mm",
+		description: "Φαρδιά σπάτουλα Inox με ξύλινη λαβή, ιδανική για ελαιοχρωματιστικές εργασίες.",
+		category: "Σπάτουλα",
+		amount: "",
+		image: "https://i.imgur.com/ColQSe5.png",
+	},
 	/*===========
 	   FF Group
 	=============*/
@@ -146,6 +167,13 @@ const Products = [
 		category: "Λάμες Φαλτσέτας",
 		amount: "",
 		image: "https://i.imgur.com/YWj1L8c.png",
+	},
+	{
+		name: "FF GROUP Μετροταινία",
+		description: "Μέτροταινία ρολό με σύστημα power lock, ελαστική επένδυση και λάμα 16 mm, μήκους 3 μέτρων. Διαθέτει κλιπ ζώνης. Είναι με Αυτόματη Επαναφορά και Μαγνήτη 16mm x 3m.",
+		category: "Μέτρο",
+		amount: "",
+		image: "https://i.imgur.com/mnQoh7M.png",
 	},
 	/*========
 	   Other
@@ -275,5 +303,12 @@ const Products = [
 		category: "Μέτρο",
 		amount: "",
 		image: "https://i.imgur.com/OpELcJd.png",
+	},
+	{
+		name: "L' Outil Parfait Ξύστρα Rigid Κοντή 65mm",
+		description: "Ξύστρα με ξύλινη λαβή, εξαιρετικής αντοχής από υψηλής ποιότητας μέταλλο.",
+		category: "Ξύστρα",
+		amount: "",
+		image: "https://i.imgur.com/mBTXk7w.png",
 	},
 ]
