@@ -13,6 +13,24 @@ const createProductsPage = (page_title) => {
 			<div id="product-filters" class="product-filters hidden"></div>
 			<div id="product-listing" class="product-listing"></div>
 			<button class="product-filters-togglemenu product-filters-circlebtn mobile-only"><i>«</i></button>
+
+			<!-- Modal -->
+			<div id="productModal" class="modal">
+				<div class="modal-content">
+
+					<div class="horz-flex-container ridge-border product-padding" style="position: sticky;">
+						<div class="vert-flex-container" style="min-width: 200px;">
+							<img id="productcont-image" class="product-image product-border" src=""/>
+							<h2 id="productcont-name" class="system-ui-font h2-centered blue-blurry-shadow product-name"></h2>
+						</div>
+						<div>
+							<p id="productcont-desc" class="small-leftright-padding system-ui-font blue-blurry-shadow"></p>
+							<p id="productcont-amt" class="small-leftright-padding system-ui-font blue-blurry-shadow"></p>
+						</div>
+					</div>
+
+				</div>
+			</div>
 		</div>
 	`;
 	content += createPaginationDiv(true);

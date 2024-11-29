@@ -54,16 +54,11 @@ const renderProducts = () => {
 	visibleProducts.forEach(product => {
 		// Create the HTML structure using template literals
 		const productsHTML = `
-		<div class="horz-flex-container ridge-border product-padding" style="position: sticky;">
+		<div class="horz-flex-container ridge-border product-padding product-card" style="position: sticky;" 
+		 onclick="openModal('${product.image}', '${product.name}', '${product.description}', '${product.amount}')">
 			<div class="vert-flex-container" style="min-width: 200px;">
-				<img class="product-image product-border" src="${product.image}"/>
+				<img class="product-image product-border" src="${product.image}" alt="${product.name}" />
 				<h2 class="system-ui-font h2-centered blue-blurry-shadow product-name">${product.name}</h2>
-			</div>
-			<div>
-				<p class="small-leftright-padding system-ui-font blue-blurry-shadow">${product.description}</p>
-				<p class="small-leftright-padding system-ui-font blue-blurry-shadow">
-					${product.amount.length > 0 ? `Ποσότητες: ${product.amount}` : ''}
-				</p>
 			</div>
 		</div>
 		`;
@@ -149,4 +144,44 @@ document.querySelectorAll('.product-filters-togglemenu').forEach(button => {
 		document.documentElement.style.setProperty('--product-filters-width', `${product_filters.offsetWidth - 10}px`);
 		product_filters.classList.toggle('hidden');
 	});
+});
+
+
+// Modal window functionality
+document.addEventListener('DOMContentLoaded', () => {
+	const modal = document.getElementById('productModal');
+
+	const modal_image = document.getElementById('productcont-image');
+	const modal_name = document.getElementById('productcont-name');
+	const modal_desc = document.getElementById('productcont-desc');
+	const modal_amt = document.getElementById('productcont-amt');
+
+	function openModal(image, name, description, amount) {
+		modal.style.display = 'flex'; // Ensure modal is visible
+		setTimeout(() => modal.classList.add('show'), 10); // Add the class after a short delay to trigger animation
+		document.body.classList.add('modal-open'); // Disable scrolling
+
+		// Update the information in the modal window
+		modal_image.setAttribute('src', image);
+		modal_name.innerHTML = name;
+		modal_desc.innerHTML = description;
+		modal_amt.innerHTML = amount.length > 0 ? `Ποσότητες: ${amount}` : '';
+	}
+
+	function closeModal() {
+		modal.classList.remove('show'); // Remove fade-in class
+		setTimeout(() => {
+			modal.style.display = 'none'; // Fully hide modal after fade-out animation
+		}, 300); // Match the CSS transition duration (0.3s)
+		document.body.classList.remove('modal-open'); // Enable scrolling
+	}
+
+	window.openModal = openModal; // Attach to global scope
+	window.closeModal = closeModal;
+
+	window.onclick = function (event) {
+		if (event.target === modal) {
+			closeModal();
+		}
+	};
 });
