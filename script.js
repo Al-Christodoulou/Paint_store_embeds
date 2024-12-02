@@ -54,9 +54,9 @@ const renderProducts = () => {
 	visibleProducts.forEach(product => {
 		// Create the HTML structure using template literals
 		const productsHTML = `
-		<div class="horz-flex-container ridge-border product-padding product-card" style="position: sticky;" 
+		<div class="horz-flex-container ridge-border product-padding product-card" style="min-width: 200px; max-width: 200px; height: 280px;"
 		 onclick="openModal('${product.image}', '${product.name}', '${product.description}', '${product.amount}')">
-			<div class="vert-flex-container" style="min-width: 200px;">
+			<div class="vert-flex-container" style="margin-left: auto; margin-right: auto;">
 				<img class="product-image product-border" src="${product.image}" alt="${product.name}" />
 				<h2 class="system-ui-font h2-centered blue-blurry-shadow product-name">${product.name}</h2>
 			</div>
