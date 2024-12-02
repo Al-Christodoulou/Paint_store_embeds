@@ -68,6 +68,12 @@ body {
 	margin: 10px;
 }
 
+.product-card {
+	min-width: 200px;
+	max-width: 200px;
+	height: 280px;
+}
+
 .product-border {
 		border-style: outset;
 		border-width: 0px;
@@ -220,8 +226,14 @@ p.small-leftright-padding {
 	}
 
 	.product-image {
-		max-width: 160px;
-		max-height: 250px;
+		max-width: 100px;
+		max-height: 100px;
+	}
+
+	.product-card {
+		min-width: 100px;
+		max-width: 100px;
+		height: 150px;
 	}
 
 	.product-filters {
