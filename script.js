@@ -58,7 +58,7 @@ const renderProducts = () => {
 		 onclick="openModal('${product.image}', '${product.name}', '${product.description}', '${product.amount}')">
 			<div class="vert-flex-container" style="margin-left: auto; margin-right: auto;">
 				<img class="product-image product-border" src="${product.image}" alt="${product.name}" />
-				<h2 class="system-ui-font h2-centered blue-blurry-shadow product-name" style="font-size: ${20 + 100 / product.name.length}px;">${product.name}</h2>
+				<h2 class="system-ui-font h2-centered blue-blurry-shadow product-name">${product.name}</h2>
 			</div>
 		</div>
 		`;
@@ -66,6 +66,35 @@ const renderProducts = () => {
 		// Append the generated HTML to the 'products' div
 		productList.innerHTML += productsHTML;
 	});
+
+	// Dynamic font scaling
+	const titles = document.querySelectorAll('.product-name');
+
+	titles.forEach(title => {
+		// Get computed styles
+		const computedStyle = getComputedStyle(title);
+		let lineHeight = parseFloat(computedStyle.lineHeight);
+	
+		// Fallback if lineHeight is not numeric
+		if (isNaN(lineHeight)) {
+			lineHeight = parseFloat(computedStyle.fontSize); // Assuming 1.2 multiplier
+		}
+	
+		const titleHeight = title.scrollHeight; // Get the content height
+		const lines = Math.round(titleHeight / lineHeight); // Calculate number of lines
+	
+		// Adjust styles based on line count
+		if (lines > 2) {
+			//title.style.fontSize = 'large'; // Reduce font size for multi-line titles
+			title.classList.add('product-name-fontsize-smaller');
+		} else {
+			//title.style.fontSize = 'x-large'; // Default font size
+			title.classList.add('product-name-fontsize-default');
+		}
+	
+		console.log(`Title: ${title.textContent}, Lines: ${lines}`);
+	});
+
 
 	let pageNumbers = document.getElementsByClassName('pageNumber');
 	for (let i = 0; i < pageNumbers.length; i++) {
@@ -82,7 +111,7 @@ const filterProducts = () => {
 		return matchesCategory && matchesSearch;
 	});
 
-	currentPage = 1;  // Reset to first page after filter
+	currentPage = 1; // Reset to first page after filter
 	renderProducts();
 };
 

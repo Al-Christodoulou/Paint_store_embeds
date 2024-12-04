@@ -57,9 +57,17 @@ body {
 }
 
 .product-name {
-	max-width: 200px;
+	/* max-width: 200px; */
 	/* adjust the margins so the text's in the middle */
 	margin: 15px auto;
+}
+
+.product-name-fontsize-default {
+	font-size: x-large;
+}
+
+.product-name-fontsize-smaller {
+	font-size: large;
 }
 
 .product-padding {
@@ -228,6 +236,14 @@ p.small-leftright-padding {
 	.product-image {
 		max-width: 100px;
 		max-height: 100px;
+	}
+
+	.product-name-fontsize-default {
+		font-size: large;
+	}
+	
+	.product-name-fontsize-smaller {
+		font-size: medium;
 	}
 
 	.product-card {
