@@ -58,7 +58,7 @@ const renderProducts = () => {
 		 onclick="openModal('${product.image}', '${product.name}', '${product.description}', '${product.amount}')">
 			<div class="vert-flex-container" style="margin-left: auto; margin-right: auto;">
 				<img class="product-image product-border" src="${product.image}" alt="${product.name}" />
-				<h2 class="system-ui-font h2-centered blue-blurry-shadow product-name">${product.name}</h2>
+				<h2 class="system-ui-font h2-centered blue-blurry-shadow product-name" style="font-size: ${20 + 100 / product.name.length}px;">${product.name}</h2>
 			</div>
 		</div>
 		`;
