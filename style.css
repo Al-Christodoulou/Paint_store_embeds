@@ -83,10 +83,10 @@ body {
 }
 
 .product-border {
-		border-style: outset;
-		border-width: 0px;
-		border-radius: 10px;
-		border-color: #d5feff;
+	border-style: outset;
+	border-width: 0px;
+	border-radius: 10px;
+	border-color: #d5feff;
 }
 
 .product-filters {
@@ -143,7 +143,7 @@ body {
 	z-index: 1;
 
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 p {
@@ -241,7 +241,7 @@ p.small-leftright-padding {
 	.product-name-fontsize-default {
 		font-size: large;
 	}
-	
+
 	.product-name-fontsize-smaller {
 		font-size: medium;
 	}
@@ -284,6 +284,10 @@ p.small-leftright-padding {
 		height: 0;
 		z-index: 10;
 		top: 5px;
+	}
+
+	.product-listing {
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 	}
 
 	.mobile-only {
