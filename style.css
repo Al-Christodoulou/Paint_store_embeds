@@ -35,6 +35,11 @@ body {
 	flex-direction: row;
 }
 
+.product-image-div {
+	min-width: 200px;
+	min-height: 200px;
+}
+
 /* a centered product image */
 .product-image {
 	display: block;
@@ -231,6 +236,11 @@ p.small-leftright-padding {
 @media screen and (max-width: 880px) {
 	.horz-flex-container {
 		flex-direction: column;
+	}
+
+	.product-image-div {
+		min-width: 100px;
+		min-height: 100px;
 	}
 
 	.product-image {

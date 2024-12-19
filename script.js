@@ -57,7 +57,9 @@ const renderProducts = () => {
 		<div class="horz-flex-container ridge-border product-padding product-card"
 		 onclick="openModal('${product.image}', '${product.name}', '${product.description}', '${product.amount}')">
 			<div class="vert-flex-container" style="margin-left: auto; margin-right: auto;">
-				<img class="product-image product-border" src="${product.image}" alt="${product.name}" />
+				<div class="product-image-div">
+					<img class="product-image product-border" src="${product.image}" alt="${product.name}" />
+				</div>
 				<h2 class="system-ui-font h2-centered blue-blurry-shadow product-name">${product.name}</h2>
 			</div>
 		</div>
