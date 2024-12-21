@@ -19,7 +19,7 @@ const createProductsPage = (page_title) => {
 				<div class="modal-content">
 
 					<div class="horz-flex-container ridge-border product-padding" style="position: sticky;">
-						<div class="vert-flex-container" style="min-width: 200px;">
+						<div class="vert-flex-container">
 							<img id="productcont-image" class="product-image product-border" src=""/>
 							<h2 id="productcont-name" class="system-ui-font h2-centered blue-blurry-shadow product-name"></h2>
 						</div>
