@@ -69,34 +69,48 @@ const renderProducts = () => {
 		productList.innerHTML += productsHTML;
 	});
 
-	// Dynamic font scaling
-	const titles = document.querySelectorAll('.product-name');
+	// Dynamic font scaling. Select all .product-name classes that are NOT inside a
+	// .modal-content structure
+	const titles = document.querySelectorAll('.product-name:not(.modal-content .product-name)');
 
+	console.log(titles);
 	titles.forEach(title => {
-		// Get computed styles
-		const computedStyle = getComputedStyle(title);
-		let lineHeight = parseFloat(computedStyle.lineHeight);
-	
-		// Fallback if lineHeight is not numeric
-		if (isNaN(lineHeight)) {
-			lineHeight = parseFloat(computedStyle.fontSize); // Assuming 1.2 multiplier
-		}
-	
-		const titleHeight = title.scrollHeight; // Get the content height
-		const lines = Math.round(titleHeight / lineHeight); // Calculate number of lines
-	
-		// Adjust styles based on line count
-		if (lines > 2) {
-			//title.style.fontSize = 'large'; // Reduce font size for multi-line titles
-			title.classList.add('product-name-fontsize-smaller');
-		} else {
-			//title.style.fontSize = 'x-large'; // Default font size
-			title.classList.add('product-name-fontsize-default');
-		}
-	
-		console.log(`Title: ${title.textContent}, Lines: ${lines}`);
-	});
+		const parent = title.parentElement.parentElement;
+		const computedParentStyle = getComputedStyle(parent);
+		const computedTitleStyle = getComputedStyle(title);
+		const lowerParent = title.parentElement;
 
+		const maxHeight = parent.offsetHeight - parseFloat(computedParentStyle.margin) - parseFloat(computedParentStyle.padding) - parseFloat(computedTitleStyle.margin);
+		const maxWidth = parent.offsetWidth - parseFloat(computedParentStyle.margin) - parseFloat(computedParentStyle.padding) - parseFloat(computedTitleStyle.margin);
+
+		let fontSize = 80; // Initial font size in pixels
+		title.style.fontSize = `${fontSize}px`;
+
+		console.log(`
+			title.offsetHeight = ${title.offsetHeight},
+			parent.offsetHeight = ${parent.offsetHeight}`
+		);
+		// Function to adjust font size
+		const adjustFontSize = () => {
+			if ((lowerParent.scrollHeight > maxHeight ||
+				lowerParent.scrollWidth > maxWidth) &&
+				fontSize > 8
+			) {
+				fontSize -= 1; // Decrease font size
+				title.style.fontSize = `${fontSize}px`;
+
+				// Debugging information
+				console.log(`Adjusting: ${title.innerHTML} | Font Size: ${fontSize}px`);
+
+				// Schedule the next adjustment
+				requestAnimationFrame(adjustFontSize);
+			} else {
+				console.log(`Final: ${title.innerHTML} | Font Size: ${fontSize}px`);
+			}
+		};
+	
+		adjustFontSize(); // Start the adjustment process
+	});
 
 	let pageNumbers = document.getElementsByClassName('pageNumber');
 	for (let i = 0; i < pageNumbers.length; i++) {
