@@ -86,30 +86,24 @@ const renderProducts = () => {
 		let fontSize = 80; // Initial font size in pixels
 		title.style.fontSize = `${fontSize}px`;
 
-		console.log(`
+		/*console.log(`
 			title.offsetHeight = ${title.offsetHeight},
 			parent.offsetHeight = ${parent.offsetHeight}`
-		);
+		);*/
+
 		// Function to adjust font size
-		const adjustFontSize = () => {
+		while (true) {
 			if ((lowerParent.scrollHeight > maxHeight ||
 				lowerParent.scrollWidth > maxWidth) &&
-				fontSize > 8
-			) {
+				fontSize > 8)
+			{
 				fontSize -= 1; // Decrease font size
 				title.style.fontSize = `${fontSize}px`;
-
-				// Debugging information
-				console.log(`Adjusting: ${title.innerHTML} | Font Size: ${fontSize}px`);
-
-				// Schedule the next adjustment
-				requestAnimationFrame(adjustFontSize);
-			} else {
-				console.log(`Final: ${title.innerHTML} | Font Size: ${fontSize}px`);
+			}
+			else {
+				break;
 			}
 		};
-	
-		adjustFontSize(); // Start the adjustment process
 	});
 
 	let pageNumbers = document.getElementsByClassName('pageNumber');
