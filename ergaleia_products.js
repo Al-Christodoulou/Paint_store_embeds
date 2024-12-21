@@ -151,6 +151,13 @@ const Products = [
 		amount: "",
 		image: "https://i.imgur.com/EXxjSCx.png",
 	},
+	{
+		name: "Δίσκος Κοπής Μετάλλου Benman",
+		description: "Διάμετρος: 115 mm & 125 mm",
+		category: "Δίσκος Κοπής Μετάλλου",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTuxO.webp",
+	},
 	/*===========
 	   FF Group
 	=============*/
@@ -216,6 +223,20 @@ const Products = [
 		category: "Συρματόβουρτσα",
 		amount: "",
 		image: "https://i.imgur.com/CmxWKcg.png",
+	},
+	{
+		name: "Δίσκος Κοπής Μετάλλου Inox FF Group",
+		description: "Φ125x1.0",
+		category: "Δίσκος Κοπής Μετάλλου",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JT4Hn.webp",
+	},
+	{
+		name: "F.F. Group Μαγνητικό Κατσαβίδι Σταυρός",
+		description: "Κατσαβίδι σταυρός της εταιρείας F.F. Group, με μέγεθος μύτης PH0 και μήκος 60 χιλιοστά. Διαθέτει μαγνητική μύτη ώστε να κρατάει τις βίδες πριν την τοποθέτησή τους.",
+		category: "Κατσαβίδι",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTlIT.webp",
 	},
 	/*========
 	   Other
@@ -415,5 +436,75 @@ const Products = [
 		category: "Αντιολισθητική Ταινία",
 		amount: "",
 		image: "https://i.imgur.com/3IL1lTW.png",
+	},
+	{
+		name: "Varta Αλκαλική Mπαταρία 23A 12V",
+		description: "",
+		category: "Μπαταρία",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTICg.webp",
+	},
+	{
+		name: "Toshiba High Power Μπαταρίες - ΑΑΑ",
+		description: "Toshiba AAA High Power Αλκαλικές Μπαταρίες. Η τεχνολογία που ενσωματώνεται στις μπαταρίες Toshiba AAA έχει σχεδιαστεί για να διαρκούν και να διαρκούν και να διαρκούν. Αποτελούν αξιόπιστες πηγές ενέργειας. Είναι συμβατές με όλες τις ψηφιακές συσκευές που δέχονται μπαταρίες τύπου AAA.",
+		category: "Μπαταρία",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTN7v.webp",
+	},
+	{
+		name: "Μπαταρία Varta Longlife Extra AAA",
+		description: "Αλκαλικές μπαταρίες Varta LongLife Extra, 1,5 Volt μέγεθος AAA, συσκευασία 4 τεμαχίων.Κατάλληλες για χρήση σε τηλεχειριστήρια τηλεοράσεων & Hi-Fi, φακούς και ρολόγια.",
+		category: "Μπαταρία",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTQLN.webp",
+	},
+	{
+		name: "Vorel Πιστόλι Σιλικόνης",
+		description: "Ελαφρύ πιστόλι σιλικόνης από σίδηρο που ταιριάζει στα τυπικά φυσίγγια 300 ml μήκους 230 mm με σιλικόνη ή κόλλα. Για τη συμπίεση πυκνών μαζών / κόλλας / σιλικόνων / στεγανωτικών, που χρησιμοποιούνται για εργασίες ανακαίνισης και φινιρίσματος. Χωρητικότητα σωλήνα 300 ml.",
+		category: "Μπιστόλι Σιλικόνης",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTkwq.webp",
+	},
+	{
+		name: "Tajima Πιστόλι Σιλικόνης",
+		description: "Διαθέτει σύστημα διανομής διπλής ώθησης και αυτόματη διακοπή ροής, δίνοντάς το πλεονέκτημα της αναλογίας 12:1.",
+		category: "Μπιστόλι Σιλικόνης",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTnUB.webp",
+	},
+	{
+		name: "OnSite Σετ Κατσαβίδια Ακριβείας",
+		description: "OnSite Κατσαβίδια ακριβείας ωρολογοποιών",
+		category: "Κατσαβίδι",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTsVu.webp",
+	},
+	{
+		name: "Varta Μπαταρία Λιθίου 3V",
+		description: "Η premium μπαταρία Varta έχει σχεδιαστεί για να παρέχει αξιόπιστη ισχύ για μικρές ηλεκτρονικές συσκευές. Οι μπαταρίες προσφέρουν την υψηλότερη απόδοση για εφαρμογές παλμικής και συνεχούς εκφόρτισης. Όλα τα κουμπιά λιθίου Varta είναι συσκευασμένα για παιδιά και πληρούν τα υψηλότερα πρότυπα ασφαλείας. Εγγυημένη η καλύτερη ποιότητα και διάρκεια.",
+		category: "Μπαταρία",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTyoL.webp",
+	},
+	{
+		name: "Varta LongLife Power Αλκαλικές Μπαταρίες",
+		description: "",
+		category: "Μπαταρία",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTKsa.webp",
+	},
+	{
+		name: "TOSHIBA SUPER Αλκαλική Μπαταρία 9V",
+		description: "",
+		category: "Μπαταρία",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTP2w.webp",
+	},
+	{
+		name: "Toshiba Αλκαλικές Μπαταρίες Ρολογιών 1.5V 10τμχ",
+		description: "Σετ 10 μπαταριών για μικρές συσκευές όπως κομπιουτεράκια, ρολόγια, κλειδιά αυτοκινήτων και άλλα.",
+		category: "Μπαταρία",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JTTHt.webp",
 	},
 ]
