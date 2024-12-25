@@ -158,6 +158,20 @@ const Products = [
 		amount: "",
 		image: "https://s6.imgcdn.dev/JTuxO.webp",
 	},
+	{
+		name: "Benman μαγνητικό αλφάδι LM12",
+		description: "Benman μαγνητικό Αλφάδι LΜ με δύο μάτια 40cm. Κατασκευασμένο από ανοξειδωμένο αλουμίνιο πάχους 1,30mm, δεν φθείρεται και δεν σκουριάζει, έχει ενσωματωμένος χάρακας ακριβείας, εξαιρετικής ποιότητας μαγνήτες, με πατενταρισμένα μάτια ακριβείας.",
+		category: "Αλφάδι",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JrDPe.webp",
+	},
+	{
+		name: "Πριόνι κυρτό γενικής χρήσης",
+		description: "Πριόνι Κυρτό Γενικής Χρήσης με Διπλό Δόντι Benman, υψηλής αντοχής λεπίδα από ατσάλι ιαπωνίας, ιδανικό για κλαδιά και κορμούς μικρών δέντρων, λαβή από σκληρό ξύλο για μεγαλύτερη αντοχή στο χρόνο. Mέγεθος: 35cm",
+		category: "Πριόνι",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JrY90.webp",
+	},
 	/*===========
 	   FF Group
 	=============*/
@@ -513,5 +527,12 @@ const Products = [
 		category: "Αλφάδι",
 		amount: "",
 		image: "https://s6.imgcdn.dev/JSAZv.webp",
+	},
+	{
+		name: "Πένσα Διάτρησης Προφίλ Γυψοσανίδας",
+		description: "",
+		category: "Πένσα",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JSpjC.webp",
 	},
 ]
