@@ -535,4 +535,11 @@ const Products = [
 		amount: "",
 		image: "https://s6.imgcdn.dev/JSpjC.webp",
 	},
+	{
+		name: "Δίσκος Λείανσης Smirdex",
+		description: "Στρογγυλό Χωρίς Τρύπες Velcro 115mm & 125mm",
+		category: "Δίσκος Λείανσης",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JrhJM.webp",
+	},
 ]
