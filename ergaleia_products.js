@@ -172,6 +172,27 @@ const Products = [
 		amount: "",
 		image: "https://s6.imgcdn.dev/JrY90.webp",
 	},
+	{
+		name: "Πριονάκι Σέγας για Κόντρα Πλακέ",
+		description: "115mm Benman Clean Cut.",
+		category: "Πριόνι",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JxbPO.webp",
+	},
+	{
+		name: "Benman Δεματικά Καλωδίων Μαύρα 100 Τεμάχια",
+		description: "Διαστάσεις: 100x2.5mm, 140x2.5mm, 200x2.5mm, 140x3.6mm, 200x3.6mm, 250x3.6mm, 300x3.6mm, 370x3.6mm, 200x4.8mm, 250x4.8mm, 300x4.8mm, 370x4.8mm, 200x7.6mm, 250x7.6mm, 300x7.6mm, 370x7.6mm.",
+		category: "Δεματικά",
+		amount: "",
+		image: "https://s6.imgcdn.dev/Jxm8g.webp",
+	},
+	{
+		name: "Benman Δεματικά Καλωδίων Λευκά 100 Τεμάχια",
+		description: "Διαστάσεις: 100x2.5mm, 140x2.5mm, 200x2.5mm, 140x3.6mm, 200x3.6mm, 250x3.6mm, 300x3.6mm, 370x3.6mm, 200x4.8mm, 250x4.8mm, 300x4.8mm, 370x4.8mm, 200x7.6mm, 250x7.6mm, 300x7.6mm, 370x7.6mm.",
+		category: "Δεματικά",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JxFkv.webp",
+	},
 	/*===========
 	   FF Group
 	=============*/
@@ -253,6 +274,22 @@ const Products = [
 		image: "https://s6.imgcdn.dev/JTlIT.webp",
 	},
 	/*========
+	   Bosch
+	==========*/
+	{
+		name: "Τρυπάνι CYL-3",
+		description: "Για περιστροφικά δράπανα/δραπανοκατσάβιδα, για κρουστικά δράπανα/δραπανοκατσάβιδα. Υψηλή αντοχή στη φθορά χάρη στο ανθεκτικό μείγμα καρβιδίου, σχεδιασμένο και κατασκευασμένο από τη Bosch. Αποτελεσματική διπλή ελίκωση σε σχήμα U, για καλή απομάκρυνση της σκόνης, μείωση τριβής και μεγάλη διάρκεια ζωής.",
+		category: "Ποτηροπρίονο",
+		amount: "",
+		image: "https://i.imgur.com/U6eAV38.png",
+	},
+	{
+		name: "Σετ λάμες σέγας Bosch",
+		description: "Σετ λάμες σέγας Bosch ιδανικές για κοπή σε ξύλο. H συσκευασία περιλαμβάνει 5 τεμάχια.",
+		category: "Λάμες",
+		amount: "",
+		image: "https://s6.imgcdn.dev/JxddK.webp",
+	},
 	   Other
 	==========*/
 	{
@@ -366,13 +403,6 @@ const Products = [
 		category: "Ποτηροπρίονο",
 		amount: "",
 		image: "https://i.imgur.com/l7bT1QC.png",
-	},
-	{
-		name: "Τρυπάνι CYL-3",
-		description: "Για περιστροφικά δράπανα/δραπανοκατσάβιδα, για κρουστικά δράπανα/δραπανοκατσάβιδα. Υψηλή αντοχή στη φθορά χάρη στο ανθεκτικό μείγμα καρβιδίου, σχεδιασμένο και κατασκευασμένο από τη Bosch. Αποτελεσματική διπλή ελίκωση σε σχήμα U, για καλή απομάκρυνση της σκόνης, μείωση τριβής και μεγάλη διάρκεια ζωής.",
-		category: "Ποτηροπρίονο",
-		amount: "",
-		image: "https://i.imgur.com/U6eAV38.png",
 	},
 	{
 		name: "Μέτρο Ρολό Giant Megalock KDS",
@@ -541,5 +571,12 @@ const Products = [
 		category: "Δίσκος Λείανσης",
 		amount: "",
 		image: "https://s6.imgcdn.dev/JrhJM.webp",
+	},
+	{
+		name: "Μπουντούζια Αλουμινίου Σέτ 100 Τεμ",
+		description: "Μπουντούζια Αλουμινίου (Σέτ 100 Τεμ) TECHBOSS. Ιδανική επιλογή για λινάτσες, μουσαμάδες και τεντόπανα.",
+		category: "Μπουντούζια",
+		amount: "",
+		image: "https://s6.imgcdn.dev/Jxe9n.webp",
 	},
 ]
