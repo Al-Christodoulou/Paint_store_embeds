@@ -57,4 +57,32 @@ const Products = [
 		amount: "",
 		image: "https://s6.imgcdn.dev/ptDra.webp",
 	},
+	{
+		name: "Morris Πινέλο Βαφής Κονταριού",
+		description: "Με φυσική τρίχα πολύ καλής ποιότητας και 10% νάιλον για αξεπέραστη αντοχή.",
+		category: "Πινέλο Κονταριού",
+		amount: "",
+		image: "https://s6.imgcdn.dev/pqyKn.webp",
+	},
+	{
+		name: "Ρολό Rollex 24 cm",
+		description: "Ρολό βαφής με σύνθεση από πολυεστέρας. ενδείκνυται για βάψιμο σε μεγάλες επιφάνειες και είναι ιδανικό για χρήση σε εφέ, εσωτερικούς τοίχους, μέτρια υφή, εξωτερικούς τοίχους.",
+		category: "Ρολό",
+		amount: "",
+		image: "https://s6.imgcdn.dev/pq5Og.webp",
+	},
+	{
+		name: "Πατρόγκα Morris A55",
+		description: "Πατρόγκα A55 30x70mm.",
+		category: "Πατρόγκα",
+		amount: "",
+		image: "https://s6.imgcdn.dev/pqKEv.webp",
+	},
+	{
+		name: "Rollex Ρολό Ακούρευτο",
+		description: "Μία ιδανική επιλογή για άγριες, ανομοιόμορφες επιφάνειες (αστοκάριστοι άγριοι τοίχοι, μάνδρες, δάπεδα από πέτρα κλπ). Ιδανικό για επαγγελματίες. Εγγυημένο για βαφή 3.000τμ. Φυσική γούνα Merinos, πυκνότητα γούνας 55-58 microns, περιλαμβάνεται χειρολαβή.",
+		category: "Ρολό",
+		amount: "",
+		image: "https://s6.imgcdn.dev/pqTiN.webp",
+	},
 ]
