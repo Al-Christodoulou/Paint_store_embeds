@@ -273,6 +273,72 @@ const Products = [
 		amount: "",
 		image: "https://s6.imgcdn.dev/JTlIT.webp",
 	},
+	/*================
+	   FF Group Βίδες
+	==================*/
+	{
+		name: "Νοβοπανόβιδες",
+		description: "Σε πάχος 3.0: Από 12 mm έως 30mm. Σε πάχος 3.5: Από 12 mm έως 50 mm. Σε πάχος 4.0: Από 12 mm έως 80 mm. Σε πάχος 5.0: Από 20 mm έως 120 mm. Σε πάχος 6.0: Από 30 mm έως 160 mm.",
+		category: "Βίδες",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDtHeo.webp",
+	},
+	{
+		name: "Στριφώνια",
+		description: "Σε πάχος 6.0: Από 90 mm έως 120 mm. Σε πάχος 8.0 \& 10.0: Από 30 mm έως 220 mm.",
+		category: "Βίδες",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDtHeo.webp",
+	},
+	{
+		name: "Βίδες Μ4",
+		description: "",
+		category: "Βίδες",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDtHeo.webp",
+	},
+	{
+		name: "Βίδες Μ6",
+		description: "",
+		category: "Βίδες",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDtHeo.webp",
+	},
+	{
+		name: "Βίδες Μ8",
+		description: "",
+		category: "Βίδες",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDtHeo.webp",
+	},
+	{
+		name: "Βίδες Μ10",
+		description: "",
+		category: "Βίδες",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDtHeo.webp",
+	},
+	{
+		name: "Τρυπανόβιδες",
+		description: "Πάχος 3.5 \& 4.2.",
+		category: "Βίδες",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDtHeo.webp",
+	},
+	{
+		name: "Βίδες Γυψοσανίδας (αυτοδιάτρητες και μη).",
+		description: "Πάχος 3.5.",
+		category: "Βίδες",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDtHeo.webp",
+	},
+	{
+		name: "Τσιμεντόβιδες",
+		description: "",
+		category: "Βίδες",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDtHeo.webp",
+	},
 	/*========
 	   Bosch
 	==========*/
@@ -593,5 +659,77 @@ const Products = [
 		category: "Ανιχνευτής",
 		amount: "",
 		image: "https://s6.imgcdn.dev/pkZJC.webp",
+	},
+	/* Ούπατ */
+	{
+		name: "Πλαστικά Βίσματα",
+		description: "Διαθέσιμα σε No6, No7, No8, No10.",
+		category: "Ούπατ",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDWAhg.webp",
+	},
+	{
+		name: "Βίσματα G\&B",
+		description: "Καλής ποιότητας βίσματα.",
+		category: "Ούπατ",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDWOPv.webp",
+	},
+	{
+		name: "Βίσματα Smart",
+		description: "Καλής ποιότητας βίσματα.",
+		category: "Ούπατ",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDWVkB.webp",
+	},
+	{
+		name: "Fischer Βίσματα",
+		description: "Άριστης ποιότητας βίσματα, με πολύ καλή εκτόνωση.",
+		category: "Ούπατ",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDW98q.webp",
+	},
+	/* Τέλος ούπατ */
+	{
+		name: "Ρόκα Στηρίγματα Καλωδίων",
+		description: "Διαθέσιμα σε πολλά διαφορετικά μεγέθη.",
+		category: "Ρόκα",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDWZ9N.webp",
+	},
+	{
+		name: "Νάιλον 4x5 Ψιλό",
+		description: "",
+		category: "Νάιλον",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDWfvu.webp",
+	},
+	{
+		name: "Νάιλον 4x5 Μεσαίο",
+		description: "",
+		category: "Νάιλον",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDWtqL.webp",
+	},
+	{
+		name: "Νάιλον 4x5 Χονδρό",
+		description: "",
+		category: "Νάιλον",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDWd4a.webp",
+	},
+	{
+		name: "Υαλόχαρτο σε Φύλλα",
+		description: "",
+		category: "Υαλόχαρτο",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDW30w.webp",
+	},
+	{
+		name: "Benman 1/4\" Μαγνητικός adaptor για στριφώνια",
+		description: "Διαθέσιμος για 8 mm, 10 mm και 13 mm.",
+		category: "Μαγνητικός adaptor",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDWLdt.webp",
 	},
 ]
