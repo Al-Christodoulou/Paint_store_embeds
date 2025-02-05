@@ -45,6 +45,13 @@ const Products = [
 		image: "https://s6.imgcdn.dev/YDtHeo.webp",
 	},
 	{
+		name: "Βίδες Μ12",
+		description: "",
+		category: "Βίδες",
+		amount: "",
+		image: "https://s6.imgcdn.dev/YDtHeo.webp",
+	},
+	{
 		name: "Τρυπανόβιδες",
 		description: "Πάχος 3.5 \& 4.2.",
 		category: "Βίδες",
@@ -60,7 +67,7 @@ const Products = [
 	},
 	{
 		name: "Τσιμεντόβιδες",
-		description: "",
+		description: "Πάχος 7.5.",
 		category: "Βίδες",
 		amount: "",
 		image: "https://s6.imgcdn.dev/YDtHeo.webp",
