@@ -1,6 +1,6 @@
 
 let currentPage = 1;
-const itemsPerPage = 10;
+const itemsPerPage = 12;
 let selectedFilters = [];
 let filteredProducts = [...Products];
 
